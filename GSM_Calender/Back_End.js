@@ -7,6 +7,6 @@ const server = http.createServer((req, res) => {
 }); //port 번호와 IP를 통해서 접근한다. 
 
 server.listen(port, hostname, () => { 
-    console.log('Server running at http://${hostname}:${port}/'); 
+    console.log(`Server running at http://${hostname}:${port}/`); 
 });
 
